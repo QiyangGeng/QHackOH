@@ -11,7 +11,7 @@ classicReg = ClassicalRegister(3)
 circuit = QuantumCircuit(quantumReg, classicReg)
 
 # Input
-
+circuit.u(np.pi/2, np.pi/2, np.pi/2)
 
 # Bell state
 circuit.x(2)
